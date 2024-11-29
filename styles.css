@@ -16,6 +16,11 @@ body {
     border-radius: 10px;
 }
 
+.card-img-top {
+    height: 150px; /* Matches the original height */
+    object-fit: cover; /* Ensures the image scales without distortion */
+}
+
 .contact-section {
     padding: 40px;
     background-color: #fff;
